@@ -69,9 +69,16 @@ body {
     border-radius: 5rem;
     display: grid;
     place-items: center;
-    color: white;
+    color: rgb(207, 207, 207);
     background-color: rgba(106, 106, 106, 0.2);
     cursor: pointer;
+    font-weight: bold;
+    transition: 200ms;
+}
+
+.number:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
 }
 
 .submit {
@@ -84,4 +91,10 @@ body {
     font-weight: bold;
     margin-top: 25px;
     cursor: pointer;
+    transition: 200ms;
+}
+
+.submit:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
 }
