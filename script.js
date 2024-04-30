@@ -29,28 +29,49 @@ function One(){
     selectedNumber = numberOne.innerText;
     selectedNumberText.textContent = selectedNumber;
     numberOne.classList.add('selected');
+    numberTwo.classList.remove('selected');
+    numberThree.classList.remove('selected');
+    numberFour.classList.remove('selected');
+    numberFive.classList.remove('selected');
 }
 
 function Two(){
     selectedNumber = numberTwo.innerText;
     selectedNumberText.textContent = selectedNumber;
     numberTwo.classList.add('selected');
+    numberOne.classList.remove('selected');
+    numberThree.classList.remove('selected');
+    numberFour.classList.remove('selected');
+    numberFive.classList.remove('selected');
 }
 
 function Three(){
     selectedNumber = numberThree.innerText;
     selectedNumberText.textContent = selectedNumber;
     numberThree.classList.add('selected');
+    numberOne.classList.remove('selected');
+    numberTwo.classList.remove('selected');
+    numberFour.classList.remove('selected');
+    numberFive.classList.remove('selected');
 }
 
 function Four(){
     selectedNumber = numberFour.innerText;
     selectedNumberText.textContent = selectedNumber;
     numberFour.classList.add('selected');
+    numberOne.classList.remove('selected');
+    numberTwo.classList.remove('selected');
+    numberThree.classList.remove('selected');
+    numberFive.classList.remove('selected');
 }
 
 function Five(){
     selectedNumber = numberFive.innerText;
     selectedNumberText.textContent = selectedNumber;
     numberFive.classList.add('selected');
+    numberOne.classList.remove('selected');
+    numberTwo.classList.remove('selected');
+    numberThree.classList.remove('selected');
+    numberFour.classList.remove('selected');
 }
+
